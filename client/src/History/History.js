@@ -32,6 +32,7 @@ const Columns = styled.div`
 const Column = styled.div`
   width: 100%;
   text-align: center;
+  color: rgba(0,0,0,0.8)
 `;
 
 class History extends Component {

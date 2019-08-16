@@ -13,9 +13,13 @@ const IntroText = styled.h2`
 const NavBar = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center
   background-color: #ffb74d;
-  padding: 20px;
+
+`;
+
+const Logo = styled.h3`
+  color: #fff;
 `;
 const Results = styled.div``;
 
@@ -27,14 +31,14 @@ function App() {
       <Container>
         <NavBar>
           <div>
-            <span>Decents</span>
+            <Logo>DECENTS</Logo>
           </div>
         </NavBar>
       </Container>
       <Results>
         <Container>
           <IntroText>
-            Decents is a realtime price information about <br /> BTC,ETH and
+            Decents provides real time price information about <br /> BTC,ETH and
             LTC.
           </IntroText>
         </Container>
