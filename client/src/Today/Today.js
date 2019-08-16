@@ -33,7 +33,6 @@ const Conversion = styled.p`
 const Column = styled.div`
   width: 100%;
   text-align: center;
-  border-right: 1px solid rgba(0, 0, 0, 0.4);
 `;
 
 class Today extends Component {
